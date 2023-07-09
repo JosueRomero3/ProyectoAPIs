@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: aliceblue;
+}
+
 .contenedor-header{
     background-color:rgb(255, 255, 255);
     width: 100%;
@@ -11,6 +15,7 @@
     justify-content: center;
     align-items: center;
     box-shadow: 1px 1px 3px black;
+    background: url(./img/fondo1.jpg) no-repeat center center/cover;
 }
 
 .contenedor-buscar{
@@ -18,7 +23,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 60vw;
+    width: 80vw;
+    background-color: aqua;
 }
 
 
@@ -44,7 +50,7 @@
     justify-content: center;
     background-color: rgb(255, 255, 255);
     border-radius: 100%;
-    margin-right: 10px;
+    margin-right: 50px;
 }
 
 #buscar{
@@ -68,7 +74,41 @@
     transform: scale(1.3);
 }
 
-@media (max-width: 611px) {
+/* Pokémon y stats */
+
+.contenedor-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor-article{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+
+.article{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100vh;
+    background-color: aqua;
+}
+
+.section-pokemon{
+    background-color: rgb(130, 196, 130);
+}
+
+.section-stats{
+    background-color: rgb(131, 131, 233);
+}
+
+/* media */
+
+@media (max-width: 454px) {
     .contenedor-buscar{
         display: flex;
         justify-content: center;
@@ -76,5 +116,24 @@
     }
     .contenedor-pokeball{
         margin-right: 0;
+    }
+    
+}
+
+@media (max-width: 800px){
+    .contenedor-article{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    
+    .article{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 50vh;
     }
 }
