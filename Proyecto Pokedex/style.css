@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenedor-header{
+    background-color:rgb(255, 255, 255);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 1px 3px black;
+}
+
+.contenedor-buscar{
+    padding: 5px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60vw;
+}
+
+
+/* Estilos del Buscador */
+.img img{
+    width: 140px;
+    cursor: pointer;
+    transition: 0.3s all;
+}
+
+.img img:hover{
+    transform: scale(1.1);
+}
+
+.pokeball{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor-pokeball{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 100%;
+    margin-right: 10px;
+}
+
+#buscar{
+    width: 35px;
+    height: 35px;
+    border-radius: 150%;
+    background-color: black;
+    background: url(./img/pokeball.png) no-repeat center center/cover;
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 0.3s all;
+}
+
+.texto{
+    height: 25px;
+    border-radius: 20px;
+    padding: 7px;
+}
+
+#buscar:hover{
+    transform: scale(1.3);
+}
+
+@media (max-width: 611px) {
+    .contenedor-buscar{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .contenedor-pokeball{
+        margin-right: 0;
+    }
+}
