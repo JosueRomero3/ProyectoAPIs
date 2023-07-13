@@ -6,7 +6,6 @@ const tarjetaAtk = document.querySelector('.ataque')
 const tarjetaAtkEsp = document.querySelector('.ataque-Esp')
 const tarjetaDef = document.querySelector('.defensa')
 const buscar= document.getElementById('buscar')
-const numPokedex = document.getElementById('texto')
 const ctx = document.getElementById('myChart');
 
 
