@@ -1,1 +1,1 @@
-console.log('Hola mundo');
+import { numeroRandom } from "./Api.js";

@@ -1,0 +1,24 @@
+{
+  "name": "pokedex",
+  "version": "1.0.0",
+  "description": "en este proyecto se muestra las estadisticas de los pokemon",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JosueRomero3/ProyectoAPIs.git"
+  },
+  "keywords": [
+    "pokedex",
+    "pokemon",
+    "stats"
+  ],
+  "author": "Josue Romero Polo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JosueRomero3/ProyectoAPIs/issues"
+  },
+  "homepage": "https://github.com/JosueRomero3/ProyectoAPIs#readme"
+}
