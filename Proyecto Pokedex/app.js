@@ -1,4 +1,4 @@
-import { numeroRandom } from "./Api.js";
+import { numeroRandom } from "./funciones.js";
 
 const tarjetabody = document.querySelector('.tarjeta-body')
 const tarjetaheader = document.querySelector('.tarjeta-header')
